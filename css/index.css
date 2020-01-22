@@ -132,23 +132,18 @@ table {
 }
 html,
 body {
-  
-   height: 100%;}
-   header{
-     display:flex;
-     justify-content: center;
-     padding:10%;
-   }
-
-
-.container{
-  margin:20% ;
-  border:1px red solid;
+  height: 100%;
 }
-   nav{
-     display:flex;
-     justify-content: space-between;
-   }
-
-
- 
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+.container {
+  margin: 20% ;
+  border: 1px red solid;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
