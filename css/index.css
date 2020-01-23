@@ -1,1 +1,244 @@
-/* Compile your LESS file! */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 3% 7% 0% 7%;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60%;
+}
+nav a {
+  color: black;
+}
+.hero {
+  background-color: rgba(198, 215, 226, 0.816);
+  margin-top: 3%;
+  padding: 6% 3%;
+}
+.hero img {
+  width: 30%;
+  height: 300px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero h6 {
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+.hero p {
+  margin-bottom: 3%;
+}
+.hero a {
+  margin-top: 7%;
+  color: white;
+  background-color: rgba(95, 100, 102, 0.788);
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+.hero a:hover {
+  background-color: rgba(198, 215, 226, 0.548);
+  color: rgba(95, 100, 102, 0.788);
+  transition: 0.9s;
+  border: 1px solid rgba(95, 100, 102, 0.788);
+}
+.middle-content {
+  display: flex;
+  padding-top: 3%;
+}
+.middle-content .middle-text {
+  width: 50%;
+}
+.middle-content .middle-text h3 {
+  font-size: 1.7rem;
+}
+.middle-content .middle-list {
+  margin-top: 1%;
+  padding-left: 5%;
+  width: 50%;
+}
+.middle-content .middle-list ul {
+  line-height: 2.5;
+  border: 1px solid rgba(198, 215, 226, 0.548);
+}
+.middle-content .middle-list li {
+  padding-left: 5%;
+  border-bottom: 1px solid rgba(198, 215, 226, 0.548);
+}
+.middle-content .middle-list h3 {
+  font-size: 1.7rem;
+}
+.history {
+  padding-top: 3%;
+}
+.history h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+.history .grid {
+  display: flex;
+  padding: 1%;
+  border-top: 1px rgba(198, 215, 226, 0.548);
+}
+.history .grid .col-1-header {
+  width: 12%;
+}
+.history .grid .col-2-header {
+  width: 25%;
+}
+.history .grid .col-3-header {
+  width: 35%;
+}
+.history .grid .col-4-header {
+  width: 30%;
+}
+.grid:nth-child(3) {
+  background-color: rgba(198, 215, 226, 0.548);
+}
+.grid:nth-child(5) {
+  background-color: rgba(198, 215, 226, 0.548);
+}
+footer {
+  padding: 15px 0px 30px 0;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 3%;
+  color: white;
+  background-color: rgba(95, 100, 102, 0.788);
+}
